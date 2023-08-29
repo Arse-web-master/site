@@ -1,0 +1,454 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.first {
+  float: left;
+  color: #fff;
+  background-color: black;
+  width: 100%;
+}
+.numer {
+  float: left;
+  -webkit-text-decoration:none;
+  color:#fff;
+ 
+}
+.first img {
+  width: 10%;
+  position: relative;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  left: 3%;
+}
+.numb svg,
+.numb2 svg {
+  float: left;
+
+  position: relative;
+}
+.numb div {
+  position: absolute;
+  padding-left: 12%;
+}
+.numb2 div {
+  position: absolute;
+  padding-left: 19%;
+}
+.numb,
+.numb2 {
+  position: absolute;
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2.25%;
+}
+.numb {
+  position: absolute;
+  left: 77%;
+}
+.numb2 {
+  position: absolute;
+  left: 92%;
+}
+.numb svg {
+  width: 7%;
+  height: 7%;
+}
+.numb2 svg {
+  width: 14%;
+  height: 14%;
+}
+.phone {
+  background-image:url(../images/kartinka.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slogan {
+  position: absolute;
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 460%;
+  width: 40%;
+  max-width: 100%;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+}
+.closing-button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  padding: 20px 0;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 2%;
+  left: 42%;
+  overflow: hidden;
+  width: 15%;
+}
+.closing-button span {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 5;
+}
+.closing-button:before,
+.closing-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.second h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  margin-top: 2%;
+}
+* {
+    box-sizing: border-box;
+  }
+  .product-item {
+    width: 32%;
+    float: left;
+    position: relative;
+    padding-left: 2%;
+    padding-top: 3%;
+    
+    margin: 0 auto;
+    border-bottom: 2px solid #f5f5f5;
+    background: white;
+    font-family: sans-serif;
+    transition: 0.3s ease-in;
+  }
+
+.pok {
+  position: relative;
+  padding-left: 20px;
+  left: 10%;
+  width: 80%;
+  
+}
+
+.product-item img {
+  display: block;
+  width: 94%;
+  position: relative;
+  bottom: 0px;
+}
+
+
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+  padding-left: 12px;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+.product-list h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #000;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 28px;
+  transition: 0.3s ease-in;
+  border-radius: 3px;
+}
+.zvonok{
+  clear:left;
+  position: relative;
+  top:50px;
+  background-color: #000;
+  height: 58vh;
+ 
+}
+.obratnuj-zvonok{
+	width: 17vw;
+  
+}
+.form-zvonok{
+	width: 200%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+  font-family: sans-serif;
+  background-color:#fff ;
+  border-radius: 6px;
+  margin: 90%;
+  padding-top: 50px;
+  padding-bottom:50px ;
+  position: relative;
+  top:20px;
+  left:100%
+  
+}
+.form-zvonok h1{
+  text-align: center;
+  font-size: 2.5vw;
+  color:#000
+}
+.form-zvonok div{
+	padding: 15px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+ 
+}
+.form-zvonok label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+  font-size: 1vw;
+  color: #000;
+}
+.form-zvonok input{
+	padding: 10px 15px;
+	margin-top: 10px;
+  font-size: 20px;
+}
+.form-zvonok label span{
+	color: red;
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #000;
+	cursor: pointer;
+  font-size: 1vw;
+	border-radius: 2px;
+  width:60%;
+  position: relative;
+  left:20%
+}
+footer{
+  font-size: 1vw;
+  color:#7a7a7a;
+  position:relative;
+  top:80px;;
+  font-family: sans-serif;
+  padding-left: 22%;
+}
+footer h2{
+  float: left;
+  
+}
+footer .fabr{
+  margin-left:50%;
+  width:25%;
+  padding-bottom:1%
+} 
+.logofot{
+
+  width:11.8%
+}
+
+@media (max-width: 1200px) {
+  .slogan {
+    width: 60%;
+    left: 20%;
+     top:30%
+  }
+.closing-button{
+ 
+    margin-top:150px;
+}
+  .form-zvonok{
+    width:300%;
+    position: relative;
+    left:50%;
+    top:40px;
+    height:72vh
+  }
+  .form-zvonok h1{
+    font-size: 5vw;
+   
+  }
+  .form-zvonok label{
+    font-size: 2vw;
+   
+  }
+  .form-zvonok .bot-send-mail{
+    font-size: 2vw;
+  }
+  .zvonok{
+    height:87vh;
+    
+  }
+}
+@media (max-width: 865px) {
+  .slogan {
+    width: 70%;
+    left: 16%;
+  }
+  .first img {
+    width: 20%;
+  }
+  .numb {
+    left: 35%;
+    font-size: 3.1vw;
+    padding-top: 0.5%;
+    width: 40%;
+  }
+  .numb svg {
+    display: none;
+  }
+  .numb2 svg {
+    display: none;
+  }
+  .numb2 {
+    left: 75%;
+    font-size: 3.1vw;
+    padding-top: 0.5%;
+  }
+  .button {
+    color: #fff;
+    background-color: #000;
+    width: 5%;
+    height: 5%;
+    font-size: 13px;
+    
+  }
+  .closing-button {
+    display: none;
+  }
+  .pok {
+    width: 70%;
+    left: 12%;
+  }
+  .product-item {
+    width: 50%;
+  }
+  .button {
+    width: 12.5vw;
+  }
+  .form-zvonok{
+    width:300%;
+    position: relative;
+    left:50%
+  }
+  .form-zvonok h1{
+    font-size: 5vw;
+   
+  }
+  .form-zvonok label{
+    font-size: 2vw;
+   
+  }
+  .zvonok{
+    height:50vh
+  }
+  footer{
+    font-size: 1.5vw;
+    padding-bottom:20%
+  }
+  footer .logofot{
+    width: 25%;
+    position: relative;
+    right:15%;
+    padding-top:5%
+  }
+  footer .fabr{
+    position: relative;
+    right:5%
+  }
+}
+@media (max-width: 720px) {
+  .slogan {
+    width: 80%;
+    left: 10%;
+  }
+  .button {
+    width: 100px;
+  }
+}
+@media (max-width: 650px) {
+  .slogan {
+    font-size: 12vw;
+    width: 80%;
+    left: 10%;
+  }
+}
+@media (max-width: 525px) {
+  .pok {
+    width: 85%;
+    left: 15%;
+  }
+  .product-item {
+    width: 70%;
+  }
+  .form-zvonok{
+    width:450%;
+    position: relative;
+    left:-15%;
+    
+    height:120vw;
+  }
+  .form-zvonok h1{
+    font-size: 7vw;
+   
+  }
+  .form-zvonok label{
+    font-size: 4vw;
+   
+  }
+  .zvonok{
+    height:145vw;
+   
+  }
+  .form-zvonok .bot-send-mail{
+    font-size: 4vw;
+    width:105%;
+    left:-3%;
+
+  }
+}
