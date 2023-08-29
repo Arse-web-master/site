@@ -395,7 +395,8 @@ footer{
 	}
 	.form-zvonok{
 		width:290%;
-		top:0px
+		top:0px;
+		height:60vh
 	}
 
 }
