@@ -459,4 +459,7 @@ footer{
 		top:100px;
 		height: 135%;
 	}
+	.bot-close-mail{
+		font-size:1vw
+	}
 }
